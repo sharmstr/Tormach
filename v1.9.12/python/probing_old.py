@@ -91,8 +91,7 @@ def find_corner(self):
         return
     feedrate = check_max_feedrate(self)
     xlimit = self.status.axis[0]['max_position_limit']
-    #ylimit = self.status.axis[1]['max_position_limit'] - Original Code
-    ylimit = self.status.axis[1]['min_position_limit']
+    ylimit = self.status.axis[1]['max_position_limit']
     self.issue_mdi('o<probe_corner> call [%f] [%f] [%f]' % (feedrate, xlimit, ylimit))
 
 def find_x_plus_origin(self):
