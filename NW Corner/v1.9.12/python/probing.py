@@ -4,7 +4,7 @@
 #
 # Module for probing routines
 #
-# "©2012 Tormach® LLC. All rights reserved."
+# "Â©2012 TormachÂ® LLC. All rights reserved."
 #
 
 # for debugging within Wing IDE
